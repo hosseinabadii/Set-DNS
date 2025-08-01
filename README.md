@@ -1,5 +1,7 @@
 # Set-DNS
 
+The following command will set the DNS to Cloudflare and Google's DNS
+
 ```
 cat <<EOF | sudo tee /etc/resolv.conf
 nameserver 1.1.1.1
